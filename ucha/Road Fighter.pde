@@ -16,7 +16,7 @@ void setup(){
   jalan = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/jalan.png");
   mobil = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/mobil.png");
   musuh = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/musuh.png");
-  home = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/home.png");
+  home = loadImage("https://github.com/Chaaexe/chaa/tree/4927348a736497a77b702ce5692f8c05df9653f4/ucha/data/home.png");
 
   x = width / 2 - mobil.width / 2;  // Mengatur posisi awal mobil di tengah layar
   mobily = height / 1.3 - mobil.height / 2;  // Mengatur posisi awal mobil di bagian bawah layar
