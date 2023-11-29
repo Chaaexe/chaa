@@ -13,9 +13,9 @@ int highscore = 0;
 
 void setup(){
   size(700,900);
-  jalan = loadImage("jalan.png");
-  mobil = loadImage("mobil.png");
-  musuh = loadImage("musuh.png");
+  jalan = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/jalan.png");
+  mobil = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/mobil.png");
+  musuh = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/musuh.png");
   home = loadImage("https://github.com/Chaaexe/chaa/blob/main/ucha/data/home.png");
 
   x = width / 2 - mobil.width / 2;  // Mengatur posisi awal mobil di tengah layar
@@ -75,12 +75,12 @@ void showHomeScreen() {
   image(home, width / 2, height / 2);
   textSize(30);
   fill(255);
-  textFont(createFont("pixel.otf", 20));
+  textFont(createFont("https://github.com/Chaaexe/chaa/blob/main/ucha/data/pixel.otf", 20));
   textAlign(CENTER, CENTER);
   text("Press ENTER to start the game", width / 2, 600);
 
   // Perbarui highscore jika skor saat ini lebih tinggi
-  textFont(createFont("pixel.otf", 35));
+  textFont(createFont("https://github.com/Chaaexe/chaa/blob/main/ucha/data/pixel.otf", 35));
   highscore = max(score, highscore);
   text("Highscore: " + highscore, width / 2, 550);
 }
@@ -121,7 +121,7 @@ void gameMode(){
     
     // Tampilkan skor
     fill(255);
-    textFont(createFont("pixel.otf", 18));
+    textFont(createFont("https://github.com/Chaaexe/chaa/blob/main/ucha/data/pixel.otf", 18));
     text("Score:" + score, 65, 20);
 
     // Perbarui highscore jika skor saat ini lebih tinggi
